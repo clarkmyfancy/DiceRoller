@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
             rollDice()
         }
     }
+    
 
     private fun rollDice() {
         val randomInt = Random().nextInt(6) + 1 // gets random number between 1 and 6
